@@ -1,0 +1,137 @@
+.first {
+  display: flex;
+  flex-direction: column;
+}
+.g-icon {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  color: #3c4043;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+
+  margin: 0;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+  transition: color 350ms ease;
+  left: 50px;
+  top: 10px;
+}
+.navbar-container {
+  display: flex;
+  column-gap: 1300px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  margin-right: 40px;
+}
+ul li {
+  list-style: none;
+}
+.heading,
+span,
+h5 {
+  font-family: Google Sans, Roboto, Arial, sans-serif;
+}
+
+.title {
+  color: #188038;
+}
+.heading {
+  text-align: center;
+  font-size: 2rem;
+}
+/* .third-grandchild {
+  display: flex;
+  
+} */
+.checkbox {
+  background-color: yellow;
+}
+.body-checkbox {
+  display: flex;
+  flex-basis: 200px;
+  margin: 10px 0 5px 0;
+}
+.span-list-one,
+h5 {
+  color: #3c4043;
+}
+.third-grandchild {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+/* .body-div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+} */
+.fourth-child {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.image {
+  height: 300px;
+  width: 300px;
+  padding: 80px 15px 80px 15px;
+}
+
+.image-text {
+  color: #555f64;
+  font-family: Google Sans, Roboto, Arial, sans-serif;
+  font-weight: bold;
+}
+.footer {
+  margin: 100px 20px 100px 20px;
+}
+.footer-inside {
+  display: flex;
+  justify-content: right;
+  margin: 0 80px 0 80px;
+}
+.footer-list {
+  margin-top: 20px;
+  font-family: Google Sans, Roboto, Arial, sans-serif;
+  color: #555f64;
+  font-weight: lighter;
+}
+
+.last {
+  margin: 0 20px 0 20px;
+  display: flex;
+  gap: 35rem;
+}
+.icons > ul {
+  display: flex;
+
+  gap: 1rem;
+}
+.logo {
+  display: flex;
+
+  gap: 2rem;
+}
+.image-flag {
+  height: 15px;
+  width: 15px;
+}
+.flag {
+  font-family: Google Sans, Roboto, Arial, sans-serif;
+  font-size: 12px;
+  color: #555f64;
+}
+@media (min-width: 481px) and(max-width:768px) {
+  .body {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    background-color: powderblue;
+  }
+}
